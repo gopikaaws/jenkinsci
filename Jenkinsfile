@@ -4,7 +4,7 @@ pipeline {
         stage('git repo & clean') {
             steps {
              
-                bat "git clone https://github.com/jenkinsci.git"
+                bat "git clone https://github.com/gopikaaws/jenkinsci.git"
              
             }
         }
