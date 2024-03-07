@@ -7,11 +7,12 @@ pipeline {
                 bat "git pull https://github.com/gopikaaws/jenkinsci.git"
             }
         }
-         stage('build') {
-            steps {
-                 build 'testpipeline'
+         stage('build'){
+             steps {
+                echo "hello"
             }
         }
+        
        
     }
 }
